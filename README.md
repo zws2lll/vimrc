@@ -397,6 +397,22 @@ Cope mappings:
     map <leader>n :cn<cr>
     map <leader>p :cp<cr>
 
+Jump: 
+
+    <C-o> jump bak
+    <C-i> jump forward
+    gd jump to definination
+    <leader>g<cr> find occure under cusor
+ 
+fold code: 
+
+    zo open fold
+    zc close fold
+    :help fold-commands (for more help)
+
+highlight:
+
+    * highlight the world under cusor
 
 ## How to uninstall
 Just do following:
