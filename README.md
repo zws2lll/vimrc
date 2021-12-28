@@ -356,6 +356,17 @@ Open [ctrlp.vim](https://github.com/kien/ctrlp.vim) plugin to quickly find a fil
 
     nnoremap <leader>v :.GBrowse!<CR>
     xnoremap <leader>v :'<'>GBrowse!<CR>
+    nmap <leader>gs :G<CR>
+    nmap <leader>gj :diffget //3<CR>
+    nmap <leader>gf :diffget //2<CR>
+    <C-W><C-O> close window except the file
+    map:
+    dv // check the diff under cursor
+    s  // add the file under cursor
+    - // Stage or unstage the file or hunk under the cursor.
+    U // Unstage everything.
+    X // Discard the change under the cursor. 
+    = // Toggle an inline diff of the file under the cursor.
 
 
 ### Spell checking
