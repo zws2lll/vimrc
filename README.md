@@ -425,6 +425,10 @@ highlight:
 
     * highlight the world under cusor
 
+YouCompleteMe
+
+    cd my_plugin/YouCompleteMe/ &&  python3 install.py --clang-completer
+
 ## How to uninstall
 Just do following:
 * Remove `~/.vim_runtime`

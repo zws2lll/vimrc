@@ -10,3 +10,9 @@
 [submodule "my_plugins/SimpylFold"]
 	path = my_plugins/SimpylFold
 	url = https://github.com/tmhedberg/SimpylFold.git
+[submodule "my_plugins/vim-visual-multi"]
+	path = my_plugins/vim-visual-multi
+	url = https://github.com/mg979/vim-visual-multi.git
+[submodule "my_plugins/YouCompleteMe"]
+	path = my_plugins/YouCompleteMe
+	url = https://github.com/ycm-core/YouCompleteMe.git
