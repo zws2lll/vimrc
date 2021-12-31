@@ -427,7 +427,9 @@ highlight:
 
 YouCompleteMe
 
-    cd my_plugin/YouCompleteMe/ &&  python3 install.py --clang-completer
+    1. cd my_plugin/YouCompleteMe/ 
+    2. git submodule update --init --recursive
+    3. python3 install.py --clang-completer
 
 ## How to uninstall
 Just do following:
