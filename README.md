@@ -431,6 +431,10 @@ YouCompleteMe
     2. git submodule update --init --recursive
     3. python3 install.py --clang-completer
 
+Indent
+    1. indent 5 lines: 5 > >
+    2. mark and indent: v j j >
+
 ## How to uninstall
 Just do following:
 * Remove `~/.vim_runtime`
