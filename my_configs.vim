@@ -5,5 +5,8 @@ map <leader>gs :G<cr>
 map <leader>a :Ack 
 map <leader>q :q<cr>
 map U <C-r>
-:set cursorline cursorcolumn
+map ps :Git push<cr>
 nnoremap <leader>g :YcmCompleter GoToDefinitionElseDeclaration<CR>
+let &colorcolumn=join(range(81,999),",")
+highlight ColorColumn ctermbg=235 guibg=#2c2d27
+
