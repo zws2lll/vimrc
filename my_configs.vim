@@ -8,5 +8,6 @@ map U <C-r>
 map ps :Git push<cr>
 nnoremap <leader>g :YcmCompleter GoToDefinitionElseDeclaration<CR>
 let &colorcolumn=join(range(81,999),",")
+let g:NERDTreeQuitOnOpen = 1
 highlight ColorColumn ctermbg=235 guibg=#2c2d27
 
