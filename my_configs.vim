@@ -5,7 +5,7 @@ map <leader>gs :G<cr>
 map <leader>a :Ack 
 map <leader>q :q<cr>
 map U <C-r>
-map ps :Git push<cr>
+map <leader>ps :Git push<cr>
 nnoremap <leader>g :YcmCompleter GoToDefinitionElseDeclaration<CR>
 let &colorcolumn=join(range(81,999),",")
 let g:NERDTreeQuitOnOpen = 1
