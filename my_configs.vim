@@ -1,5 +1,5 @@
 :set nu
-autocmd vimenter * ++nested colorscheme gruvbox
+autocmd vimenter * ++nested colorscheme onedark
 map <leader>j :tabnew<cr>:CtrlP<cr>
 map <leader>gs :G<cr>
 map <leader>a :Ack 
