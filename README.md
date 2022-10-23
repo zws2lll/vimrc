@@ -443,6 +443,11 @@ Indent
     1. indent 5 lines: 5 > >
     2. mark and indent: v j j >
 
+
+vim-gitgutter
+    1. show git status in file: <leader>d
+    2. show diff: <leader>dd
+
 ## How to uninstall
 Just do following:
 * Remove `~/.vim_runtime`
