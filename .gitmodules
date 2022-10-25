@@ -25,3 +25,6 @@
 [submodule "my_plugins/lightline-bufferline"]
 	path = my_plugins/lightline-bufferline
 	url = https://github.com/mengelbrecht/lightline-bufferline.git
+[submodule "my_plugins/vim-doge"]
+	path = my_plugins/vim-doge
+	url = https://github.com/kkoomen/vim-doge.git
