@@ -420,7 +420,6 @@ Jump:
 
     <C-o> jump bak
     <C-i> jump forward
-    gd jump to definination
     <leader>g<cr> find occure under cusor
  
 fold code: 
@@ -438,15 +437,30 @@ YouCompleteMe
     1. cd my_plugin/YouCompleteMe/ 
     2. git submodule update --init --recursive
     3. python3 install.py --clang-completer
+    4. gd jump to definination
 
 Indent
+
     1. indent 5 lines: 5 > >
     2. mark and indent: v j j >
 
 
 vim-gitgutter
-    1. show git status in file: <leader>d
-    2. show diff: <leader>dd
+
+    1. show git status in file: <leader>d (abandon, lazygit is better)
+    2. show diff: <leader>dd (abandon, lazygit is better)
+
+
+lazy-git
+
+    1. sudo apt-get install lazygit
+    2. open lazygit in vim: <leader>g
+
+vim-doge
+
+    1. enter vim and :call doge#install()
+    2. insert docstring: <leader>d 
+
 
 ## How to uninstall
 Just do following:
