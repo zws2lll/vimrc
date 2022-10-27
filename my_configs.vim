@@ -1,14 +1,23 @@
 :set nu
 autocmd vimenter * ++nested colorscheme gruvbox
 map <leader>f :tabnew<cr>:CtrlP<cr>
-" map <leader>gs :G<cr>
-map <leader>a :Ack 
+map <leader>a :Ack
 map <leader>q :q<cr>
 map U <C-r>
 nnoremap <leader>g :!lazygit<cr>
 let &colorcolumn=join(range(81,999),",")
 let g:NERDTreeQuitOnOpen = 1
 set completeopt=menu,menuone
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => black formatter
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+augroup black_on_save
+    autocmd!
+    autocmd BufWritePre *.py Black
+augroup end
+
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-doge
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -34,7 +43,7 @@ let g:gitgutter_enabled=1
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => lightline-bufferline 
+" => lightline-bufferline
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " let g:lightline = {
 "       \ 'colorscheme': 'one',

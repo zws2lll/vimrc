@@ -28,3 +28,6 @@
 [submodule "my_plugins/vim-doge"]
 	path = my_plugins/vim-doge
 	url = https://github.com/kkoomen/vim-doge.git
+[submodule "my_plugins/black"]
+	path = my_plugins/black
+	url = https://github.com/psf/black.git
