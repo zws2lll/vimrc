@@ -28,3 +28,6 @@
 [submodule "my_plugins/YouCompleteMe"]
 	path = my_plugins/YouCompleteMe
 	url = https://github.com/ycm-core/YouCompleteMe.git
+[submodule "my_plugins/black"]
+	path = my_plugins/black
+	url = https://github.com/psf/black.git
