@@ -34,6 +34,10 @@ nnoremap gd :YcmCompleter GoTo<CR>
 let g:ycm_add_preview_to_completeopt = 0
 
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => easymotion
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:EasyMotion_skipfoldedline = 0
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Git gutter (Git diff)
