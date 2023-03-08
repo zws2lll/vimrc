@@ -12,6 +12,9 @@ set completeopt=menu,menuone
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => black formatter
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" let g:black_use_virtualenv = 0
+" sudo apt-get install python3.8-venv
+" sudo apt-get install python3.10-venv
 augroup black_on_save
     autocmd!
     autocmd BufWritePre *.py Black
@@ -22,7 +25,7 @@ augroup end
 " => vim-doge
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:doge_mapping = '<Leader>d'
-let g:doge_doc_standard_python = 'google'
+let g:doge_doc_standard_python = 'numpy'
 let g:doge_python_settings = {
             \  'single_quotes': 0
             \}
