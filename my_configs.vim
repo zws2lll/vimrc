@@ -24,6 +24,8 @@ augroup end
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-doge
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" install doge in vim first by
+" :call doge#install()
 let g:doge_mapping = '<Leader>d'
 let g:doge_doc_standard_python = 'numpy'
 let g:doge_python_settings = {
