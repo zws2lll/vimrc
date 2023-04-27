@@ -31,3 +31,6 @@
 [submodule "my_plugins/black"]
 	path = my_plugins/black
 	url = https://github.com/psf/black.git
+[submodule "my_plugins/copilot.vim"]
+	path = my_plugins/copilot.vim
+	url = https://github.com/github/copilot.vim.git
