@@ -29,6 +29,23 @@ To install for multiple users, the repository needs to be cloned to a location a
 	
 Naturally, `/opt/vim_runtime` can be any directory, as long as all the users specified have read access.
 
+## How to install vim 8.2?
+
+    git clone https://github.com/vim/vim.git
+    git checkout v8.2.5172
+    ./configure --with-features=huge \
+            --enable-multibyte \
+            --enable-rubyinterp=yes \
+            --enable-python3interp=yes \
+            --with-python3-config-dir=$(python3-config --configdir) \
+            --enable-perlinterp=yes \
+            --enable-luainterp=yes \
+            --enable-gui=gtk2 \
+            --enable-cscope \
+            --prefix=/usr/local
+    sudo make install
+
+
 ## Fonts
 
 I recommend using [IBM Plex Mono font](https://github.com/IBM/plex) (it's an open-source and awesome font that can make your code look beautiful). The Awesome vimrc is already setup to try to use it.
