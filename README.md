@@ -478,6 +478,9 @@ vim-doge
     1. enter vim and :call doge#install()
     2. insert docstring: <leader>d 
 
+black
+    1. sudo apt-get install python3.10-venv
+    2. removed ~/.vim/black and deactivaded your venv and opened vim again(automatically installs black)
 
 ## How to uninstall
 Just do following:
