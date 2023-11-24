@@ -34,3 +34,6 @@
 [submodule "my_plugins/copilot.vim"]
 	path = my_plugins/copilot.vim
 	url = https://github.com/github/copilot.vim.git
+[submodule "my_plugins/vim-polyglot"]
+	path = my_plugins/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot.git

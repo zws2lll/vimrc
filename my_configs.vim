@@ -1,5 +1,6 @@
-:set nu
-autocmd vimenter * ++nested colorscheme gruvbox
+set nu
+" autocmd vimenter * ++nested colorscheme gruvbox
+colorscheme gruvbox
 map <leader>f :tabnew<cr>:CtrlP<cr>
 map <leader>a :Ack
 map <leader>q :q<cr>
@@ -8,6 +9,12 @@ nnoremap <leader>g :!lazygit<cr>
 let &colorcolumn=join(range(81,999),",")
 let g:NERDTreeQuitOnOpen = 1
 set completeopt=menu,menuone
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim-polyglot
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:python_highlight_all = 1
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => black formatter
