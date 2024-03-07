@@ -1,14 +1,15 @@
 set nu
-" autocmd vimenter * ++nested colorscheme gruvbox
-colorscheme gruvbox
+autocmd vimenter * ++nested colorscheme gruvbox
 map <leader>f :tabnew<cr>:CtrlP<cr>
-map <leader>a :Ack
+map <leader>s :Ack
 map <leader>q :q<cr>
 map U <C-r>
 nnoremap <leader>g :!lazygit<cr>
 let &colorcolumn=join(range(81,999),",")
 let g:NERDTreeQuitOnOpen = 1
 set completeopt=menu,menuone
+let g:EditorConfig_disable_rules = ['max_line_length']
+let g:ale_python_flake8_options = '--max-line-length=120'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-polyglot
